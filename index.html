@@ -3,65 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <title>Study Buddy</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <header>
-    <h1>📚 Study Buddy</h1>
-
-    <nav>
-      <a href="#intro">Avaleht</a>
-      <a href="#tips">Nipid</a>
-      <a href="#forms">Vormid</a>
+  <header class="site-header">
+	  <div class="logo-container">
+		<img src="siin logo pilt" alt="" class="logo-img" width="40" height="40">
+		<h1>📚 Study Buddy</h1>
+	  </div>
+    <nav class="main-nav" aria-label="Põhinavigatsioon">
+		<ul>
+		  <li><a href="#intro">Avaleht</a></li>
+		  <li><a href="#tips">Nipid</a></li>
+		  <li><a href="#forms">Vormid</a></li>
+		</ul>
     </nav>
   </header>
 
   <main>
 
-    <section id="intro">
-      <h2>Tere tulemast Study Buddy lehele</h2>
-      <p>Siin saad õppimise nippe ja jagada enda omasid.</p>
+    <section id="intro" class="section intro-section">
+		<div class="container">
+		  <h2>Tere tulemast Study Buddy lehele</h2>
+		  <p class="intro-text">Siin saad õppimise nippe ja jagada enda omasid.</p>
+		  <img src="võib siia pildi panna" alt="" class="hero-image">
+		</div>
     </section>
 
-    <section id="tips">
-      <h2>Õppimise nipid</h2>
-
-      <ul>
-        <li>Kasuta Pomodoro tehnikat</li>
-        <li>Õpi väikeste osadena</li>
-        <li>Korda regulaarselt</li>
-      </ul>
+    <section id="tips" class="section tips-section">
+		<div class="container">
+			<h2>Õppimise nipid</h2>
+			<ul class="tips-grid">
+				<li>Kasuta Pomodoro tehnikat</li>
+				<li>Õpi väikeste osadena</li>
+				<li>Korda regulaarselt</li>
+			</ul>
+		</div>
     </section>
 
-    <section id="forms">
-      <h2>Lisa oma õppimisnipp</h2>
+    <section id="forms" class="section forms-section">
+            <div class="container">
+                <h2>Jaga ja liitu</h2>
+                <div class="forms-wrapper">
+                    <article class="form-card">
+                        <h3>Lisa oma õppimisnipp</h3>
+                        <form action="#" method="POST" class="study-form">
+                            <label for="tip-input">Sinu nipp:</label>
+                            <input type="text" id="tip-input" name="tip" placeholder="Nt. Kirjuta märkmeid käsitsi..." required autocomplete="off">
+                            <button type="submit">Saada</button>
+                        </form>
+                    </article>
 
-      <form>
-        <label>Nipp:</label>
-        <textarea></textarea>
-
-        <button type="submit">Saada</button>
-      </form>
-    </section>
-
-    <section id="join">
-      <h2>Liitu meiega</h2>
-
-      <form>
-        <label>Nimi:</label>
-        <input type="text">
-
-        <label>Email:</label>
-        <input type="email">
-
-        <button type="submit">Liitu</button>
-      </form>
-    </section>
+                    <article class="form-card">
+                        <h3>Liitu meiega</h3>
+                        <form action="#" method="POST" class="join-form">
+                            <label for="name-input">Nimi:</label>
+                            <input type="text" id="name-input" name="name" placeholder="Sinu ees- ja perekonnanimi" required>
+                            <label for="email-input">Email:</label>
+                            <input type="email" id="email-input" name="email" placeholder="nimi@kool.ee" required>
+                            <button type="submit">Liitu</button>
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </section>
 
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>© 2026 Study Buddy</p>
   </footer>
 
