@@ -6,5 +6,7 @@ Lehe eesmärk on jagada õppimise nippe ning pakkuda kasutajatele võimalust lis
 Projekt on tehtud õppetöö raames ning keskendub semantilisele HTML-ile ja SASS-i kasutamisele.
 
 Tööjaotus:
+
 Ralf Soiela – HTML (struktuur, meediaelemendid: logo, favicon, pildid)
+
 German Vesi – SASS/CSS (kujundus, mobiilivaade / responsive design)
