@@ -7,6 +7,8 @@ Projekt on tehtud õppetöö raames ning keskendub semantilisele HTML-ile ja SAS
 
 Tööjaotus:
 
-Ralf Soiela – HTML (struktuur, meediaelemendid: logo, favicon, pildid)
+Ralf Soiela – JavaScript ja HTML (struktuur, meediaelemendid: logo, favicon, pildid)
 
 German Vesi – SASS/CSS (kujundus, mobiilivaade / responsive design)
+
+Figma link: https://www.figma.com/design/YjUSng2AfwsHjF0WzNJsUl/Study-buddy?m=auto&t=KEi92gagvxDoUKNZ-6
